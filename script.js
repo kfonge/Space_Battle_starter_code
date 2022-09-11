@@ -95,8 +95,8 @@ function attackAlien() {
         updateAlien();
 
 		setTimeout(() => {
-           alert("You have hit the alien ship! Alien hull sustained " + helloWorld.firepower + " damage.");
-           console.log("You have hit the alien ship! Alien hull sustained " + helloWorld.firepower + " damage.");
+           alert("You have hit the alien ship! Alien hull sustained " + helloWorld.firepower + " points in damage.");
+           console.log("You have hit the alien ship! Alien hull sustained " + helloWorld.firepower + " points in damage.");
 		}, '1000')
         
  
